@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="mainbox">
+            <div class="move">
+                <form id="signUpForm">
+                    <div class="move3"><label for="signUpUsername">Username:</label></div>
+                    <div><input type="text" id="signUpUsername" name="username" required></div>
+
+                    <div class="move4"><label for="signUpPassword">Password:</label></div>
+                    <div><input type="password" id="signUpPassword" name="password" required></div>
+            </div>
+            <div class="move2"><button class="button2" type="button" onclick="addUser()">sign Up</button></div>
+            </form>
+            <p id="message"></p>
+            <p id="userList"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

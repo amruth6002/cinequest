@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login in</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="main">
+        <div class="mainbox">
+            <div class="move">
+                <form id="signInForm">
+                    <div class="move3"><label for="signInUsername">Username:</label></div>
+                    <div><input type="text" id="signInUsername" name="username" required></div>
+                <div class="move4">
+                    <label for="signInPassword">Password:
+                    </label>
+                </div>
+                <div>
+                    <input type="password" id="signInPassword" name="password" required>
+                </div>
+            </div>
+            <div class="move2">
+                <button class="button2" type="button" onclick="signIn()">Log In</button>
+            </div>
+            </form>    
+        </div>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
