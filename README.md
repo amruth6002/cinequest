@@ -1,2 +1,0 @@
-# cinequest
-Movie review website
