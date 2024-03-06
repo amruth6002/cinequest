@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+    background-image: url("pexels-tima-miroshnichenko-7991486.jpg");
+    background-position: center;
+    background-size: contain;
+}
+.main{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+z-index: 10;
+
+}
+.mainbox{
+    font-family: oswald;
+    border: 2px solid white;
+    background-color: white;
+    font-size: 23px;
+    font-weight: 900;
+    height: 60vh;
+    width: 25vw;
+    margin: 124px 0px;
+    border-radius: 12px;
+}
+.button2{
+    color: white;
+    background-color: orange;
+    border: 2px solid orange;
+    text-decoration: none;
+    border-radius: 7px;
+    font-family: oswald ;
+    font-size: 23px;
+    font-weight: 900;
+    padding: 3px 11px;
+}
+.button2:hover{
+    color: white;
+    background-color: black;
+}
+.move{
+    transform: translate(99px,80px);
+}
+.move2{
+    transform: translate(146px,117px);
+}
+.move3{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 45px 0px 45px;
+}
+.move4{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 45px;
+}
